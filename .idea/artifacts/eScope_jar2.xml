@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eScope:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/eScope_jar2</output-path>
+    <root id="archive" name="eScope.jar">
+      <element id="module-output" name="eScope" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/mysql-connector-java-6.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/jsoup-1.10.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

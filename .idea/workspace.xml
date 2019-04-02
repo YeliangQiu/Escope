@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="eScope:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/eScope/Server.java" line="90" />
+    <bookmark url="file://$PROJECT_DIR$/src/eScope/DCSim.java" line="51" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa21f986-34bc-4c72-babb-33088d4764af" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="389699388">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="78" />
+          <entry key="project.open.time.0" value="8" />
+          <entry key="project.open.time.1" value="14" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="15" />
+          <entry key="project.open.time.5" value="17" />
+          <entry key="project.open.time.6" value="16" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.opened" value="78" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ft" value="202" />
+          <entry key="java" value="6004" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6004" />
+          <entry key="VTL" value="202" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eScope/DCProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eScope/DCSim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="35" selection-start-line="35" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eScope/LoadGenerate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eScope/ServerUtl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <folding>
+                <element signature="e#3936#3937#0" expanded="true" />
+                <element signature="e#3966#3967#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eScope/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eScope/DCtoPower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>构造完成</find>
+      <find>getPower</find>
+      <find>update</find>
+      <find>最优</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/eScope</dir>
+    </dirStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/eScope/DCSim.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/eScope/HeapNode.java" />
+        <option value="$PROJECT_DIR$/src/eScope/BBMProblem.java" />
+        <option value="$PROJECT_DIR$/src/eScope/computeEP.java" />
+        <option value="$PROJECT_DIR$/src/eScope/Server.java" />
+        <option value="$PROJECT_DIR$/src/eScope/ComputeUtl.java" />
+        <option value="$PROJECT_DIR$/src/eScope/MyConnection.java" />
+        <option value="$PROJECT_DIR$/src/eScope/DCProblem.java" />
+        <option value="$PROJECT_DIR$/src/eScope/DCtoPower.java" />
+        <option value="$PROJECT_DIR$/src/eScope/ServerUtl.java" />
+        <option value="$PROJECT_DIR$/src/eScope/Solution.java" />
+        <option value="$PROJECT_DIR$/src/eScope/LoadGenerate.java" />
+        <option value="$PROJECT_DIR$/src/eScope/DCSim.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="193" />
+    <option name="y" value="511" />
+    <option name="width" value="1595" />
+    <option name="height" value="933" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eScope" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eScope" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eScope" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eScope" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eScope" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eScope" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eScope" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="escope" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552104557652" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DCSim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eScope.DCSim" />
+      <module name="eScope" />
+      <option name="PROGRAM_PARAMETERS" value="100000 300000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eScope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DCSim" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa21f986-34bc-4c72-babb-33088d4764af" name="Default" comment="" />
+      <created>1522659081659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522659081659</updated>
+      <workItem from="1532936167574" duration="1273000" />
+      <workItem from="1532938588190" duration="353000" />
+      <workItem from="1532938985490" duration="1902000" />
+      <workItem from="1533001065091" duration="15326000" />
+      <workItem from="1533026906553" duration="3411000" />
+      <workItem from="1533040944170" duration="4043000" />
+      <workItem from="1533045363715" duration="316000" />
+      <workItem from="1533085354266" duration="43000" />
+      <workItem from="1533091423412" duration="203000" />
+      <workItem from="1533091885339" duration="14000" />
+      <workItem from="1533091959639" duration="25392000" />
+      <workItem from="1533177397843" duration="11335000" />
+      <workItem from="1533207651404" duration="3923000" />
+      <workItem from="1533266194338" duration="47000" />
+      <workItem from="1534408645489" duration="8499000" />
+      <workItem from="1534487548841" duration="2539000" />
+      <workItem from="1534490478294" duration="1171000" />
+      <workItem from="1534491666883" duration="1824000" />
+      <workItem from="1534554224289" duration="7797000" />
+      <workItem from="1534655268048" duration="641000" />
+      <workItem from="1534664589300" duration="7595000" />
+      <workItem from="1534732930696" duration="19298000" />
+      <workItem from="1534814456281" duration="9814000" />
+      <workItem from="1534840530082" duration="617000" />
+      <workItem from="1534904177070" duration="2090000" />
+      <workItem from="1534942423569" duration="310000" />
+      <workItem from="1534986917683" duration="34924000" />
+      <workItem from="1535170915553" duration="2252000" />
+      <workItem from="1535179228125" duration="665000" />
+      <workItem from="1535269711330" duration="27000" />
+      <workItem from="1536635172635" duration="4008000" />
+      <workItem from="1536653650265" duration="7240000" />
+      <workItem from="1536715935258" duration="5294000" />
+      <workItem from="1536802783012" duration="205000" />
+      <workItem from="1536821082122" duration="2511000" />
+      <workItem from="1536893027577" duration="2551000" />
+      <workItem from="1537078045069" duration="1203000" />
+      <workItem from="1537253942402" duration="622000" />
+      <workItem from="1537257305966" duration="599000" />
+      <workItem from="1537868387318" duration="3000" />
+      <workItem from="1538011118280" duration="1030000" />
+      <workItem from="1538048780135" duration="16780000" />
+      <workItem from="1538123915039" duration="1049000" />
+      <workItem from="1538186264100" duration="8047000" />
+      <workItem from="1538206983104" duration="3452000" />
+      <workItem from="1538274663726" duration="2936000" />
+      <workItem from="1539256758781" duration="2420000" />
+      <workItem from="1539340756965" duration="1980000" />
+      <workItem from="1539355658015" duration="738000" />
+      <workItem from="1539399642642" duration="348000" />
+      <workItem from="1540120364703" duration="5153000" />
+      <workItem from="1540385485547" duration="1835000" />
+      <workItem from="1541332762310" duration="11911000" />
+      <workItem from="1541419597324" duration="9034000" />
+      <workItem from="1541507975609" duration="1471000" />
+      <workItem from="1541599029363" duration="1305000" />
+      <workItem from="1541604660364" duration="13973000" />
+      <workItem from="1541762781650" duration="1540000" />
+      <workItem from="1541766612312" duration="3814000" />
+      <workItem from="1542192902352" duration="2020000" />
+      <workItem from="1542724700091" duration="1448000" />
+      <workItem from="1542727976766" duration="937000" />
+      <workItem from="1543493527598" duration="3005000" />
+      <workItem from="1543500153715" duration="1867000" />
+      <workItem from="1543579428298" duration="3727000" />
+      <workItem from="1543657288175" duration="2066000" />
+      <workItem from="1543698901024" duration="2451000" />
+      <workItem from="1543734590129" duration="7128000" />
+      <workItem from="1543747019785" duration="2114000" />
+      <workItem from="1543755508931" duration="1306000" />
+      <workItem from="1544020512147" duration="21000" />
+      <workItem from="1544020551681" duration="402000" />
+      <workItem from="1544099358267" duration="535000" />
+      <workItem from="1544188034495" duration="351000" />
+      <workItem from="1544357125766" duration="1647000" />
+      <workItem from="1544543793851" duration="178000" />
+      <workItem from="1544703269357" duration="3468000" />
+      <workItem from="1544712010057" duration="53000" />
+      <workItem from="1544789425871" duration="1333000" />
+      <workItem from="1544874842734" duration="1748000" />
+      <workItem from="1544883705987" duration="3999000" />
+      <workItem from="1544971815730" duration="37000" />
+      <workItem from="1544971855792" duration="633000" />
+      <workItem from="1545093450363" duration="14000" />
+      <workItem from="1545133528274" duration="297000" />
+      <workItem from="1545226065789" duration="501000" />
+      <workItem from="1545752263682" duration="2210000" />
+      <workItem from="1546006430159" duration="2952000" />
+      <workItem from="1546337552920" duration="893000" />
+      <workItem from="1546787184657" duration="397000" />
+      <workItem from="1546868642126" duration="971000" />
+      <workItem from="1546910956015" duration="9775000" />
+      <workItem from="1547036344751" duration="514000" />
+      <workItem from="1547037056672" duration="2994000" />
+      <workItem from="1547174825693" duration="3878000" />
+      <workItem from="1547229345676" duration="2009000" />
+      <workItem from="1547277659972" duration="1309000" />
+      <workItem from="1547295796612" duration="732000" />
+      <workItem from="1547516908226" duration="3530000" />
+      <workItem from="1548049933378" duration="1975000" />
+      <workItem from="1548229672464" duration="2378000" />
+      <workItem from="1548232203792" duration="2487000" />
+      <workItem from="1548294987108" duration="1184000" />
+      <workItem from="1548308369741" duration="2286000" />
+      <workItem from="1548323371719" duration="1443000" />
+      <workItem from="1548384006512" duration="18000" />
+      <workItem from="1548398352475" duration="1738000" />
+      <workItem from="1548405881228" duration="466000" />
+      <workItem from="1548415296972" duration="23000" />
+      <workItem from="1548587815552" duration="243000" />
+      <workItem from="1548655034939" duration="889000" />
+      <workItem from="1549031651997" duration="483000" />
+      <workItem from="1551180753053" duration="25000" />
+      <workItem from="1551180936582" duration="775000" />
+      <workItem from="1551249320803" duration="23000" />
+      <workItem from="1551282248306" duration="104000" />
+      <workItem from="1551777143507" duration="1664000" />
+      <workItem from="1551880922611" duration="536000" />
+      <workItem from="1552102992425" duration="312000" />
+      <workItem from="1552104028740" duration="347000" />
+      <workItem from="1552104433576" duration="150000" />
+      <workItem from="1552105051464" duration="1195000" />
+      <workItem from="1552391007175" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="376930000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="193" y="511" width="1595" height="933" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23245332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42687276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19693878" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4912854" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2954304" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>low_threshold==180000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>low_threshold == 180000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>low_threshold==1800000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i=85</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==80</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==500</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j==1000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==200</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==90</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==75</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MyConnection.java" />
+    <entry file="file://$PROJECT_DIR$/src/eScope.java" />
+    <entry file="jar://E:/Java/JDK/src.zip!/java/util/ArrayList.java" />
+    <entry file="jar://$PROJECT_DIR$/src/mysql-connector-java-6.0.5.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1415" selection-start-line="1415" selection-end-line="1415" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/mysql-connector-java-6.0.5.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JDK/src.zip!/java/util/Arrays.java" />
+    <entry file="file://$PROJECT_DIR$/src/eScope/computeEP.java" />
+    <entry file="jar://E:/Java/JDK/src.zip!/java/lang/Comparable.java" />
+    <entry file="file://$PROJECT_DIR$/src/eScope/BBMProblem.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/HeapNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/eScope/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2241#2242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/MyConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/ComputeUtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/DCProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/LoadGenerate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/ServerUtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#3936#3937#0" expanded="true" />
+            <element signature="e#3966#3967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/DCtoPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eScope/DCSim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="35" selection-start-line="35" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>eScope:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>eScope</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsoup-1.10.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
