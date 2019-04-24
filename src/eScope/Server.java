@@ -18,6 +18,7 @@ public class Server implements Comparable<Server>{
     private int num;//此型号服务器的总数
     public double[] EE = new double[11];
     public int choose_utl = -1; //此台服务器所运行的utl
+    private int peakee_utl = -1;
     public int failureFlag = 1; //此台服务器是否失效，1表示正常,可以用bool型替代
     public Boolean selected = false;
     /***
@@ -40,6 +41,14 @@ public class Server implements Comparable<Server>{
         return jobs[i];
     }
 
+    public int getPeakee_utl() {
+        return peakee_utl;
+    }
+
+    public void setPeakee_utl(int peakee_utl) {
+        this.peakee_utl = peakee_utl;
+    }
+
     public String getId() {
         return id;
     }
@@ -53,7 +62,7 @@ public class Server implements Comparable<Server>{
         return num;
     }
 
-    public int getChoose_utl(int i) {
+    public int getChoose_utl() {
         return choose_utl;
     }
 

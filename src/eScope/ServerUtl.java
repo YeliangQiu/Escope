@@ -19,12 +19,27 @@ public class ServerUtl {
         }
         return serverTotalPower;
     }
+
     public double getServerTotalThroughput(){
         double serverTotalThroughput = 0;
         for(Server server:servers){
             serverTotalThroughput += server.getJobs(0);
         }
         return serverTotalThroughput;
+    }
+
+    public void setServerMaxEE(){
+        int utl= -1;
+        double maxEE = -1;
+        for(Server server:servers){
+            for(int i=0;i<11;i++){
+                if(server.getEE(i) > maxEE){
+                    maxEE = server.getEE(i);
+                    utl = i;
+                }
+            }
+            server.setPeakee_utl(utl);
+        }
     }
 
     public ServerUtl (String sql){ //创建Server对象,参数为数组大小，也就是服务器总个数
