@@ -2,6 +2,8 @@ package eScope;
 
 
 
+import eScope.compara.ComparatorPeakEE;
+
 import java.io.InputStream;
 import java.util.*;
 import java.util.Date;
@@ -48,14 +50,24 @@ public class DCSim {
 //            System.out.println("本次需要达到的吞吐量"+ Math.floor(totalthroughput * benchUtilization[i]));
 //            solution.throughtoutToPower(serverUtl,Math.floor(totalthroughput * benchUtilization[i]));
 //        }
-        //普通背包方法
+        //背包算法
 //        solution.powerToThroughtout(100000,sql);
 
         //模拟退火方法
-        System.out.println("运行全部服务器在100%所需要的总功耗" + serverUtl.getServersTotalPower());
-        SAProblem saProblem = new SAProblem(serverUtl.servers,100000);
-        saProblem.init();
-        saProblem.solve();
+//        System.out.println("运行全部服务器在100%所需要的总功耗" + serverUtl.getServersTotalPower());
+//        SAProblem saProblem = new SAProblem(serverUtl.servers,100000);
+//        saProblem.init();
+//        saProblem.solve();
+
+        //贪心算法
+        Greed greed = new Greed(serverUtl.getservers(),100000);
+        List<Server> serverList = greed.getServerList();
+        ComparatorPeakEE comparatorPeakEE = new ComparatorPeakEE();
+        Collections.sort(serverList, comparatorPeakEE);
+        for(Server server:serverList)
+            System.out.println(server.getEE(server.getPeakee_utl()));
+        greed.solve();
+
 
         //solution.throughtoutToPower(4e9,sql);
         //solution.powerToThroughtout(Integer.parseInt(args[0]),Integer.parseInt(args[1]),sql);

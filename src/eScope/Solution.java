@@ -14,7 +14,7 @@ public class Solution {
         long currentTime = System.currentTimeMillis();
         float runtime;
         ServerUtl serverUtl = new ServerUtl(sql);
-        Server bags[] = serverUtl.getservers();
+        Server[] bags = serverUtl.getservers();
         Arrays.sort(bags);
         DCProblem kp = new DCProblem(bags, threshold, serverUtl.getserverTypeNum(), 300000);
         kp.solve();

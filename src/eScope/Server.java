@@ -1,22 +1,19 @@
 package eScope;
 
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.*;
+
+import java.util.Comparator;
 
 public class Server implements Comparable<Server>{
     /** Server power at one energy efficiency  */
     private double[] power = new double[11]; //10个挡位
 
     /** ssj jobs completed at one energy efficiency with power  , jobs= power* energy_efficiency */
-    private int[] jobs = new int [11];//10个挡位
+    private int[] jobs;//10个挡位
     private String id;
-    private String[] utl = new String[11];//10个挡位
+    private String[] utl;//10个挡位
     private int num;//此型号服务器的总数
-    public double[] EE = new double[11];
+    public double[] EE ;
     public int choose_utl = -1; //此台服务器所运行的utl
     private int peakee_utl = -1;
     public int failureFlag = 1; //此台服务器是否失效，1表示正常,可以用bool型替代
@@ -74,6 +71,17 @@ public class Server implements Comparable<Server>{
         else
             return 0;
     }
+
+//    public static Comparator peakEEcomparator = new Comparator() {
+//        @Override
+//        public int compare(Server o1, Server o2) {
+//            if (o1.getEE(o1.getPeakee_utl()) >= o2.getEE(o2.getPeakee_utl()))
+//                return 1;
+//            else
+//                return -1;
+//        }
+//    };
+
 //    public int compareTo(Server compareEE){
 //        if(compareEE.getEE(0) > this.getEE(0))
 //            return 1;
