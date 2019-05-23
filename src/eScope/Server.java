@@ -13,7 +13,7 @@ public class Server implements Comparable<Server>{
     private String id;
     private String[] utl;//10个挡位
     private int num;//此型号服务器的总数
-    public double[] EE ;
+    private double[] EE ;
     public int choose_utl = -1; //此台服务器所运行的utl
     private int peakee_utl = -1;
     public int failureFlag = 1; //此台服务器是否失效，1表示正常,可以用bool型替代
@@ -61,6 +61,70 @@ public class Server implements Comparable<Server>{
 
     public int getChoose_utl() {
         return choose_utl;
+    }
+
+    public double[] getPower() {
+        return power;
+    }
+
+    public int[] getJobs() {
+        return jobs;
+    }
+
+    public String[] getUtl() {
+        return utl;
+    }
+
+    public int getNum() {
+        return num;
+    }
+
+    public double[] getEE() {
+        return EE;
+    }
+
+    public int getFailureFlag() {
+        return failureFlag;
+    }
+
+    public Boolean getSelected() {
+        return selected;
+    }
+
+    public void setPower(double[] power) {
+        this.power = power;
+    }
+
+    public void setJobs(int[] jobs) {
+        this.jobs = jobs;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setUtl(String[] utl) {
+        this.utl = utl;
+    }
+
+    public void setNum(int num) {
+        this.num = num;
+    }
+
+    public void setEE(double[] EE) {
+        this.EE = EE;
+    }
+
+    public void setChoose_utl(int choose_utl) {
+        this.choose_utl = choose_utl;
+    }
+
+    public void setFailureFlag(int failureFlag) {
+        this.failureFlag = failureFlag;
+    }
+
+    public void setSelected(Boolean selected) {
+        this.selected = selected;
     }
 
     public int compareTo(Server comparestu) {

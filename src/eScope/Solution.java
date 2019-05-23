@@ -16,7 +16,8 @@ public class Solution {
         ServerUtl serverUtl = new ServerUtl(sql);
         Server[] bags = serverUtl.getservers();
         Arrays.sort(bags);
-        DCProblem kp = new DCProblem(bags, threshold, serverUtl.getserverTypeNum(), 300000);
+        DCProblem kp = new DCProblem(bags, threshold, serverUtl.getserverTypeNum(), 300000); //背包算法、
+
         kp.solve();
         System.out.println(" -------- 该背包问题实例的解: --------- ");
         System.out.println("最优值：" + kp.getBestValue());

@@ -2,6 +2,7 @@ package eScope;
 
 
 
+import eScope.analysis.DataAnalysis;
 import eScope.compara.ComparatorPeakEE;
 
 import java.io.InputStream;
@@ -36,10 +37,11 @@ public class DCSim {
 //                "select * from benchmark_results_summary where id='2018082800853'\n" +
 //                "union all\n" +
 //                "select * from benchmark_results_summary where id='2018062900822'";
-        ServerUtl serverUtl = new ServerUtl(sql);
-        serverUtl.setServerMaxEE();
-        double totalthroughput = serverUtl.getServerTotalThroughput();
-        Solution solution = new Solution();
+
+//        ServerUtl serverUtl = new ServerUtl(sql);
+//        serverUtl.setServerMaxEE();
+//        double totalthroughput = serverUtl.getServerTotalThroughput();
+//        Solution solution = new Solution();
 
 //        LoadGenerate loadGenerate = new LoadGenerate();
 //        double[] benchUtilization = loadGenerate.setLoad();
@@ -60,14 +62,16 @@ public class DCSim {
 //        saProblem.solve();
 
         //贪心算法
-        Greed greed = new Greed(serverUtl.getservers(),100000);
-        List<Server> serverList = greed.getServerList();
-        ComparatorPeakEE comparatorPeakEE = new ComparatorPeakEE();
-        Collections.sort(serverList, comparatorPeakEE);
-        for(Server server:serverList)
-            System.out.println(server.getEE(server.getPeakee_utl()));
-        greed.solve();
+//        Greed greed = new Greed(serverUtl.getservers(),100000);
+//        List<Server> serverList = greed.getServerList();
+//        ComparatorPeakEE comparatorPeakEE = new ComparatorPeakEE();
+//        Collections.sort(serverList, comparatorPeakEE);
+//        for(Server server:serverList)
+//            System.out.println(server.getEE(server.getPeakee_utl()));
+//        greed.solve();
 
+//        DataAnalysis dataAnalysis = new DataAnalysis("2019041800956");
+//        dataAnalysis.print();
 
         //solution.throughtoutToPower(4e9,sql);
         //solution.powerToThroughtout(Integer.parseInt(args[0]),Integer.parseInt(args[1]),sql);
