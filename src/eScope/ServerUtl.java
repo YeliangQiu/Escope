@@ -61,6 +61,7 @@ public class ServerUtl {
                 int[] jobs = new int[11];
                 String[] utl = new String[11];
                 int serverNum = rs.getInt(10);
+                //System.out.println("xxxxxxxxxxxxxx"+serverNum);
                 double[] EE = new double[11];
                 String id = rs.getString(1);
                 int utlNum = resultMap.get(id);

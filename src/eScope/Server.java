@@ -127,7 +127,7 @@ public class Server implements Comparable<Server>{
         this.selected = selected;
     }
 
-    public int compareTo(Server comparestu) {
+    public int compareTo(Server comparestu) { //根据利用率进行排序
         if(comparestu.choose_utl<this.choose_utl)
            return 1;
         else if(comparestu.choose_utl>this.choose_utl)

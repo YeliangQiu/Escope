@@ -13,16 +13,25 @@ public class Solution {
         String start_time = (df.format(new Date()));
         long currentTime = System.currentTimeMillis();
         float runtime;
-        ServerUtl serverUtl = new ServerUtl(sql);
+        ServerUtl serverUtl = new ServerUtl(sql); //根据sql选出要模拟哪些机器
         Server[] bags = serverUtl.getservers();
-        Arrays.sort(bags);
-        DCProblem kp = new DCProblem(bags, threshold, serverUtl.getserverTypeNum(), 300000); //背包算法、
-
-        kp.solve();
-        System.out.println(" -------- 该背包问题实例的解: --------- ");
-        System.out.println("最优值：" + kp.getBestValue());
-        System.out.println("最优解【选取的背包】: ");
-        ArrayList<Server> results = kp.getBestSolution();
+        //Arrays.sort(bags);
+        ArrayList<Server> results;
+        if(threshold <= 1000000) {
+            DCProblem kp = new DCProblem(bags, threshold, serverUtl.getserverTypeNum(), 300000); //背包算法、
+            kp.solve();
+            System.out.println(" -------- 该背包问题实例的解: --------- ");
+            System.out.println("最优值：" + kp.getBestValue());
+            System.out.println("最优解【选取的背包】: ");
+            results = kp.getBestSolution();
+        }else{
+            Greed kp = new Greed(bags,threshold);
+            kp.solution();
+            System.out.println(" -------- 该背包问题实例的解: --------- ");
+            System.out.println("最优值：" + kp.getBestValue());
+            System.out.println("最优解【选取的背包】: ");
+            results = kp.getBestSolution();
+        }
         runtime = (System.currentTimeMillis() - currentTime) / 1000f;
         double jobs = 0;
         double power = 0;
